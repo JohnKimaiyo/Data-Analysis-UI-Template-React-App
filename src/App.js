@@ -6,8 +6,9 @@ import Excel from "./Components/Excel";
 import SQL from "./Components/SQL";
 function App() {
   return (
+    
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
+     <img src={logo} className="App-logo" alt="logo" />
       <PowerBI />
       <GoogleSheet />
       <Excel />

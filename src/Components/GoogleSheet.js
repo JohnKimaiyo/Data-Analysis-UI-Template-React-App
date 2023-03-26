@@ -7,18 +7,18 @@ export default function GoogleSheet() {
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
-        <a
+     
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary"> <a
           href="https://github.com/JohnKimaiyo/Chennai-housing-Sales/blob/main/src/Power%20BI%20%20Dashboard/Chennai%20Dashboard.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
           View the Dashboard Here
-        </a>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        </a></Button>
       </Card.Body>
     </Card>
   );
